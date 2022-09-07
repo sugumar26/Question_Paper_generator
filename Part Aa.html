@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Generate Question Paper</title>
+<link rel="stylesheet" href="partA.css" >
+</head>
+<body>
+  <form method="post" action="partaa.php">
+  <br><br>
+  <div>
+    <label for="sub"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Subject: </b></label>&ensp;
+    &emsp;&emsp;
+        <select id="sub" name="subject" required>
+        <option></option>
+        <option>Artificial Intelligence</option>
+        <option>Computer Hardware & Troubleshooting</option>
+        <option>Mobile Computing</option>
+        <option>Principle of Compiler design</option>
+        <option>Python Programming</option>
+        <option>Web Technology</option>
+        <option>Computer Networks</option>
+
+    </select> 
+    &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;
+    <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Subject Code: </b></label>
+        &ensp;<input  name="subjectcode" class="nrl" type="text" placeholder="Subject Code" required><br><br><br>
+    <label style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Branch: </b></label>
+    &ensp;&emsp;&emsp;<input type="text" name="branch" placeholder="Branch" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Semester: </b></label>
+        &nbsp;&emsp;&emsp;
+        <!-- <input type="number" placeholder="Semester" required> -->
+        <select name="semester" type="tel" placeholder="Semester" required>
+            <option>&emsp;</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="yr"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Year: </b></label>
+        &ensp;
+        <select type="tel" placeholder="Year" required name="year">
+            <option>&emsp;</option>
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+        </select>   <br><br><br>
+        <label for="sub"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Exam Type: </b></label>&ensp;
+    <select id="sub" name="exam type" required>
+        <option></option>
+        <option>Series Test 1</option>
+        <option>Series Test 2</option>
+        <option>Series Test 3</option>
+        <option>End Semester</option>
+    </select> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Duration: </b></label>
+        &nbsp;&emsp;&emsp;<input type="tel" placeholder="Duration" required name="duration">&emsp;&emsp;&emsp;&emsp;
+    <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Total Marks: </b></label>
+        &ensp;<input type="number" placeholder="Total Marks" required name="marks">&emsp;&emsp;&emsp;
+    <br><br><br> 
+    <!--<label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b> Two Marks </b></label>
+        &nbsp;&emsp;&emsp;<input type="number" required>&emsp;&emsp;&emsp;&emsp;
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Eight Marks </b></label>
+        &nbsp;&emsp;&emsp;<input type="number" required>&emsp;&emsp;&emsp;&emsp;
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b> Sixteen Marks </b></label>
+        &nbsp;&emsp;&emsp;<input type="number" required>-->
+  </div>
+    <div>
+    <h1>PART A</h1>
+    <table>
+        <tr>
+          <th>QUESTION NO</th>
+          <th>UNIT NO</th>
+          <th>LEVEL</th>
+        </tr>
+        
+        <tr>
+            <td>Q1</td>
+            <td><label for="text"><b>UNIT</b></label>
+              &ensp;<select id="unit0a" name="unit0a" required>
+                  <option>&ensp;</option>
+                  <option value="1a">UNIT 1</option>
+                  <option value="2a">UNIT 2</option>
+                  <option value="3a">UNIT 3</option>
+                  <option value="4a">UNIT 4</option>
+                  <option value="5a">UNIT 5</option>
+              </select></td>
+            <td><label for="text"><b>LEVEL</b></label>
+              &ensp;<select id="level0a" name="level0a" required>
+                  <option>&ensp;</option>
+                  <option>Remembering</option>
+                  <option >Understanding</option>
+                  <option >Applying</option>
+                  <option >Analyzing</option>
+                  <option >Evaluating</option>
+                  <option >Creating</option>
+              </select></td>
+          </tr>
+          <tr>
+        <td>Q2</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit1a" name="unit1a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level1a" name="level1a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+    </html><tr>
+        <td>Q3</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit2a" name="unit2a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level2a" name="level2a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q4</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit3a" name="unit3a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level3a" name="level3a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q5</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit4a" name="unit4a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level4a" name="level4a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q6</td>
+        <td> <label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit5a" name="unit5a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level5a" name="level5a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q7</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit6a" name="unit6a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level6a" name="level6a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q8</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit7a" name="unit7a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level7a" name="level7a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Q9</td>
+        <td><label for="text"><b>UNIT </b></label>
+          &ensp;<select id="unit8a" name="unit8a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level8a" name="level8a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+    <br><br>
+      <tr>
+        <td>Q10</td>
+        <td><label><b>UNIT </b></label>
+          &ensp;<select id="unit9a" name="unit9a" required>
+              <option>&ensp;</option>
+              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+          </select></td>
+        <td><label for="text"><b>LEVEL</b></label>
+          &ensp;<select id="level9a" name="level9a" required>
+              <option>&ensp;</option>
+              <option>Remembering</option>
+              <option >Understanding</option>
+              <option >Applying</option>
+              <option >Analyzing</option>
+              <option >Evaluating</option>
+              <option >Creating</option>
+          </select></td>
+      </tr>
+      </table>
+      <!--<button id="button" class="partA" onClick="location.href='partB.html'" ><b>NEXT</b></button>
+      <input type="submit" value="Generate question paper" id="button" name="generate"-->
+</div>
+<div>
+        <h1>PART B</h1>
+        <table>
+          <tr>
+            <th>QUESTION NO</th>
+            <th>OPTION</th>
+            <th>UNIT NO</th>
+            <th>LEVEL</th>
+            <th>MARK</th>
+          </tr>
+          <tr>
+            <td>Q1</td>
+            <td> <select id="option"><option>&ensp;</option>
+              <option>a</option>
+              <option >b</option>
+            </select></td>
+            <td><label for="text"><b>UNIT</b></label>
+              &ensp;<select id="unit0b" name="unit0b" required>
+                  <option>&ensp;</option>
+                  <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+              </select></td>
+            <td><label for="text"><b>LEVEL</b></label>
+              &ensp;<select id="level0b" name="level0b" required>
+                <option>&emsp;</option>
+                <option value="Remembering">Remembering</option>
+                <option value="Understanding">Understanding</option>
+                <option value="Applying" >Applying</option>
+                <option value="Analyzing">Analyzing</option>
+                <option value="Evaluating">Evaluating</option>
+                <option value="Creating">Creating</option>
+              </select></td>
+              <td><label for="text"><b>MARK</b></label>
+                  &ensp;<select id="mark0b" name="mark0b" required>
+                      <option>&ensp;</option>
+                      <option >16</option>
+                      <option >8</option>
+                      <option >12</option>
+                      <option >6</option>
+                      <option >10</option>
+                      <OPtion>4</OPtion>
+                      <OPtion>0</OPtion>
+                  </select></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td> <select id="option"><option>&ensp;</option>
+              <option>a</option>
+              <option >b</option>
+            </select></td>
+            <td><label for="text"><b>UNIT </b></label>
+              &ensp;<select id="unit1b" name="unit1b" required>
+                  <option>&ensp;</option>
+                  <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+              </select></td>
+            <td><label for="text"><b>LEVEL</b></label>
+              &ensp;<select id="level1b" name="level1b" required>
+                <option>&emsp;</option>
+                <option value="Remembering">Remembering</option>
+                <option value="Understanding">Understanding</option>
+                <option value="Applying" >Applying</option>
+                <option value="Analyzing">Analyzing</option>
+                <option value="Evaluating">Evaluating</option>
+                <option value="Creating">Creating</option>
+              </select></td>
+              <td><label for="text"><b>MARK</b></label>
+                  &ensp;<select id="mark1b" name="mark1b" required>
+                      <option>&ensp;</option>
+                      <option >16</option>
+                      <option >8</option>
+                      <option >12</option>
+                      <option >6</option>
+                      <option >10</option>
+                      <OPtion>4</OPtion>
+                      <OPtion>0</OPtion>
+                  </select></td>
+          </tr>
+          
+          <tr>
+              <td>OR</td>
+              <td> <select id="option"><option>&ensp;</option>
+                <option>a</option>
+                <option >b</option>
+              </select></td>
+              <td><label for="text"><b>UNIT </b></label>
+                &ensp;<select id="unit2b" name="unit2b" required>
+                    <option>&ensp;</option>
+                    <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                </select></td>
+              <td><label for="text"><b>LEVEL</b></label>
+                &ensp;<select id="level2b" name="level2b" required>
+                  <option>&emsp;</option>
+                  <option value="Remembering">Remembering</option>
+                  <option value="Understanding">Understanding</option>
+                  <option value="Applying" >Applying</option>
+                  <option value="Analyzing">Analyzing</option>
+                  <option value="Evaluating">Evaluating</option>
+                  <option value="Creating">Creating</option>
+                </select></td>
+                <td><label for="text"><b>MARK</b></label>
+                  &ensp;<select id="mark2b" name="mark2b" required>
+                      <option>&ensp;</option>
+                      <option >16</option>
+                      <option >8</option>
+                      <option >12</option>
+                      <option >6</option>
+                      <option >10</option>
+                      <OPtion>4</OPtion>
+                      <OPtion>0</OPtion>
+                  </select></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td> <select id="option"><option>&ensp;</option>
+                <option>a</option>
+                <option >b</option>
+              </select></td>
+              <td><label for="text"><b>UNIT </b></label>
+                &ensp;<select id="unit3b" name="unit3b" required>
+                    <option>&ensp;</option>
+                    <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                </select></td>
+              <td><label for="text"><b>LEVEL</b></label>
+                &ensp;<select id="level3b" name="level3b" required>
+                  <option>&emsp;</option>
+                  <option value="Remembering">Remembering</option>
+                  <option value="Understanding">Understanding</option>
+                  <option value="Applying" >Applying</option>
+                  <option value="Analyzing">Analyzing</option>
+                  <option value="Evaluating">Evaluating</option>
+                  <option value="Creating">Creating</option>
+                </select></td>
+                <td><label for="text"><b>MARK</b></label>
+                  &ensp;<select id="mark3b" name="mark3b" required>
+                      <option>&ensp;</option>
+                      <option >16</option>
+                      <option >8</option>
+                      <option >12</option>
+                      <option >6</option>
+                      <option >10</option>
+                      <OPtion>4</OPtion>
+                      <OPtion>0</OPtion>
+                  </select></td>
+            </tr>
+            <tr>
+              <td>Q2</td>
+              <td> <select id="option"><option>&ensp;</option>
+                <option>a</option>
+                <option >b</option>
+              </select></td>
+              <td><label for="text"><b>UNIT </b></label>
+                &ensp;<select id="unit4b" name="unit4b" required>
+                    <option>&ensp;</option>
+                    <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                </select></td>
+              <td><label for="text"><b>LEVEL</b></label>
+                &ensp;<select id="level4b" name="level4b" required>
+                  <option>&emsp;</option>
+                  <option value="Remembering">Remembering</option>
+                  <option value="Understanding">Understanding</option>
+                  <option value="Applying" >Applying</option>
+                  <option value="Analyzing">Analyzing</option>
+                  <option value="Evaluating">Evaluating</option>
+                  <option value="Creating">Creating</option>
+                </select></td>
+                <td><label for="text"><b>MARK</b></label>
+                    &ensp;<select id="mark4b" name="mark4b" required>
+                        <option>&ensp;</option>
+                        <option >16</option>
+                        <option >8</option>
+                        <option >12</option>
+                        <option >6</option>
+                        <option >10</option>
+                        <OPtion>4</OPtion>
+                        <OPtion>0</OPtion>
+                    </select></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td> <select id="option"><option>&ensp;</option>
+                <option>a</option>
+                <option >b</option>
+              </select></td>
+              <td><label for="text"><b>UNIT </b></label>
+                &ensp;<select id="unit5b" name="unit5b" required>
+                    <option>&ensp;</option>
+                    <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                </select></td>
+              <td><label for="text"><b>LEVEL</b></label>
+                &ensp;<select id="level5b" name="level5b" required>
+                  <option>&emsp;</option>
+                  <option value="Remembering">Remembering</option>
+                  <option value="Understanding">Understanding</option>
+                  <option value="Applying" >Applying</option>
+                  <option value="Analyzing">Analyzing</option>
+                  <option value="Evaluating">Evaluating</option>
+                  <option value="Creating">Creating</option>
+                </select></td>
+                <td><label for="text"><b>MARK</b></label>
+                    &ensp;<select id="mark5b" name="mark5b" required>
+                        <option>&ensp;</option>
+                        <option >16</option>
+                        <option >8</option>
+                        <option >12</option>
+                        <option >6</option>
+                        <option >10</option>
+                        <OPtion>4</OPtion>
+                        <OPtion>0</OPtion>
+                    </select></td>
+            </tr>
+            
+            <tr>
+                <td>OR</td>
+                <td> <select id="option"><option>&ensp;</option>
+                  <option>a</option>
+                  <option >b</option>
+                </select></td>
+                <td><label for="text"><b>UNIT </b></label>
+                  &ensp;<select id="unit6b" name="unit6b" required>
+                      <option>&ensp;</option>
+                      <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                  </select></td>
+                <td><label for="text"><b>LEVEL</b></label>
+                  &ensp;<select id="level6b" name="level6b" required>
+                    <option>&emsp;</option>
+                    <option value="Remembering">Remembering</option>
+                    <option value="Understanding">Understanding</option>
+                    <option value="Applying" >Applying</option>
+                    <option value="Analyzing">Analyzing</option>
+                    <option value="Evaluating">Evaluating</option>
+                    <option value="Creating">Creating</option>
+                  </select></td>
+                  <td><label for="text"><b>MARK</b></label>
+                    &ensp;<select id="mark6b" name="mark6b" required>
+                        <option>&ensp;</option>
+                        <option >16</option>
+                        <option >8</option>
+                        <option >12</option>
+                        <option >6</option>
+                        <option >10</option>
+                        <OPtion>4</OPtion>
+                        <OPtion>0</OPtion>
+                    </select></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td> <select id="option"><option>&ensp;</option>
+                  <option>a</option>
+                  <option >b</option>
+                </select></td>
+                <td><label for="text"><b>UNIT </b></label>
+                  &ensp;<select id="unit7b" name="unit7b" required>
+                      <option>&ensp;</option>
+                      <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                  </select></td>
+                <td><label for="text"><b>LEVEL</b></label>
+                  &ensp;<select id="level7b" name="level7b" required>
+                    <option>&emsp;</option>
+                    <option value="Remembering">Remembering</option>
+                    <option value="Understanding">Understanding</option>
+                    <option value="Applying" >Applying</option>
+                    <option value="Analyzing">Analyzing</option>
+                    <option value="Evaluating">Evaluating</option>
+                    <option value="Creating">Creating</option>
+                  </select></td>
+                  <td><label for="text"><b>MARK</b></label>
+                    &ensp;<select id="mark7b" name="mark7b" required>
+                        <option>&ensp;</option>
+                        <option >16</option>
+                        <option >8</option>
+                        <option >12</option>
+                        <option >6</option>
+                        <option >10</option>
+                        <OPtion>4</OPtion>
+                        <OPtion>0</OPtion>
+                    </select></td>
+              </tr>
+              <tr>
+                <td>Q3</td>
+                <td> <select id="option"><option>&ensp;</option>
+                  <option>a</option>
+                  <option >b</option>
+                </select></td>
+                <td><label for="text"><b>UNIT </b></label>
+                  &ensp;<select id="unit8b" name="unit8b" required>
+                      <option>&ensp;</option>
+                      <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                  </select></td>
+                <td><label for="text"><b>LEVEL</b></label>
+                  &ensp;<select id="level8b" name="level8b" required>
+                    <option>&emsp;</option>
+                    <option value="Remembering">Remembering</option>
+                    <option value="Understanding">Understanding</option>
+                    <option value="Applying" >Applying</option>
+                    <option value="Analyzing">Analyzing</option>
+                    <option value="Evaluating">Evaluating</option>
+                    <option value="Creating">Creating</option>
+                  </select></td>
+                  <td><label for="text"><b>MARK</b></label>
+                      &ensp;<select id="mark8b" name="mark8b" required>
+                          <option>&ensp;</option>
+                          <option >16</option>
+                          <option >8</option>
+                          <option >12</option>
+                          <option >6</option>
+                          <option >10</option>
+                          <OPtion>4</OPtion>
+                          <OPtion>0</OPtion>
+                      </select></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td> <select id="option"><option>&ensp;</option>
+                  <option>a</option>
+                  <option >b</option>
+                </select></td>
+                <td><label for="text"><b>UNIT </b></label>
+                  &ensp;<select id="unit9b" name="unit9b" required>
+                      <option>&ensp;</option>
+                      <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                  </select></td>
+                <td><label for="text"><b>LEVEL</b></label>
+                  &ensp;<select id="level9b" name="level9b" required>
+                    <option>&emsp;</option>
+                    <option value="Remembering">Remembering</option>
+                    <option value="Understanding">Understanding</option>
+                    <option value="Applying" >Applying</option>
+                    <option value="Analyzing">Analyzing</option>
+                    <option value="Evaluating">Evaluating</option>
+                    <option value="Creating">Creating</option>
+                  </select></td>
+                  <td><label for="text"><b>MARK</b></label>
+                      &ensp;<select id="mark9b" name="mark9b" required>
+                          <option>&ensp;</option>
+                          <option >16</option>
+                          <option >8</option>
+                          <option >12</option>
+                          <option >6</option>
+                          <option >10</option>
+                          <OPtion>4</OPtion>
+                          <OPtion>0</OPtion>
+                      </select></td>
+              </tr>
+              
+              <tr>
+                  <td>OR</td>
+                  <td> <select id="option"><option>&ensp;</option>
+                    <option>a</option>
+                    <option >b</option>
+                  </select></td>
+                  <td><label for="text"><b>UNIT </b></label>
+                    &ensp;<select id="unit10b" name="unit10b" required>
+                        <option>&ensp;</option>
+                        <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                    </select></td>
+                  <td><label for="text"><b>LEVEL</b></label>
+                    &ensp;<select id="level10b" name="level10b" required>
+                      <option>&emsp;</option>
+                      <option value="Remembering">Remembering</option>
+                      <option value="Understanding">Understanding</option>
+                      <option value="Applying" >Applying</option>
+                      <option value="Analyzing">Analyzing</option>
+                      <option value="Evaluating">Evaluating</option>
+                      <option value="Creating">Creating</option>
+                    </select></td>
+                    <td><label for="text"><b>MARK</b></label>
+                      &ensp;<select id="mark10b" name="mark10b" required>
+                          <option>&ensp;</option>
+                          <option >16</option>
+                          <option >8</option>
+                          <option >12</option>
+                          <option >6</option>
+                          <option >10</option>
+                          <OPtion>4</OPtion>
+                          <OPtion>0</OPtion>
+                      </select></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td> <select id="option"><option>&ensp;</option>
+                    <option>a</option>
+                    <option >b</option>
+                  </select></td>
+                  <td><label for="text"><b>UNIT </b></label>
+                    &ensp;<select id="unit11b" name="unit11b" required>
+                        <option>&ensp;</option>
+                        <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                    </select></td>
+                  <td><label for="text"><b>LEVEL</b></label>
+                    &ensp;<select id="level11b" name="level11b" required>
+                      <option>&emsp;</option>
+                      <option value="Remembering">Remembering</option>
+                      <option value="Understanding">Understanding</option>
+                      <option value="Applying" >Applying</option>
+                      <option value="Analyzing">Analyzing</option>
+                      <option value="Evaluating">Evaluating</option>
+                      <option value="Creating">Creating</option>
+                    </select></td>
+                    <td><label for="text"><b>MARK</b></label>
+                      &ensp;<select id="mark11b" name="mark11b" required>
+                          <option>&ensp;</option>
+                          <option >16</option>
+                          <option >8</option>
+                          <option >12</option>
+                          <option >6</option>
+                          <option >10</option>
+                          <OPtion>4</OPtion>
+                          <OPtion>0</OPtion>
+                      </select></td>
+                    </tr>
+                    <tr>
+                      <td>Q4</td>
+                      <td> <select id="option"><option>&ensp;</option>
+                        <option>a</option>
+                        <option >b</option>
+                      </select></td>
+                      <td><label for="text"><b>UNIT </b></label>
+                        &ensp;<select id="unit12b" name="unit12b" required>
+                            <option>&ensp;</option>
+                            <option value="1">UNIT 1</option>
+                            <option value="2">UNIT 2</option>
+                            <option value="3">UNIT 3</option>
+                            <option value="4">UNIT 4</option>
+                            <option value="5">UNIT 5</option>
+                        </select></td>
+                      <td><label for="text"><b>LEVEL</b></label>
+                        &ensp;<select id="level12b" name="level12b" required>
+                          <option>&emsp;</option>
+                          <option value="Remembering">Remembering</option>
+                          <option value="Understanding">Understanding</option>
+                          <option value="Applying" >Applying</option>
+                          <option value="Analyzing">Analyzing</option>
+                          <option value="Evaluating">Evaluating</option>
+                          <option value="Creating">Creating</option>
+                        </select></td>
+                        <td><label for="text"><b>MARK</b></label>
+                            &ensp;<select id="mark12b" name="mark12b" required>
+                                <option>&ensp;</option>
+                                <option >16</option>
+                                <option >8</option>
+                                <option >12</option>
+                                <option >6</option>
+                                <option >10</option>
+                                <OPtion>4</OPtion>
+                                <OPtion>0</OPtion>
+                            </select></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td> <select id="option"><option>&ensp;</option>
+                        <option>a</option>
+                        <option >b</option>
+                      </select></td>
+                      <td><label for="text"><b>UNIT </b></label>
+                        &ensp;<select id="unit13b" name="unit13b" required>
+                            <option>&ensp;</option>
+                            <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                        </select></td>
+                      <td><label for="text"><b>LEVEL</b></label>
+                        &ensp;<select id="level13b" name="level13b" required>
+                          <option>&emsp;</option>
+                          <option value="Remembering">Remembering</option>
+                          <option value="Understanding">Understanding</option>
+                          <option value="Applying" >Applying</option>
+                          <option value="Analyzing">Analyzing</option>
+                          <option value="Evaluating">Evaluating</option>
+                          <option value="Creating">Creating</option>
+                        </select></td>
+                        <td><label for="text"><b>MARK</b></label>
+                            &ensp;<select id="mark13b" name="mark13b" required>
+                                <option>&ensp;</option>
+                                <option >16</option>
+                                <option >8</option>
+                                <option >12</option>
+                                <option >6</option>
+                                <option >10</option>
+                                <OPtion>4</OPtion>
+                                <OPtion>0</OPtion>
+                            </select></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>OR</td>
+                        <td> <select id="option"><option>&ensp;</option>
+                          <option>a</option>
+                          <option >b</option>
+                        </select></td>
+                        <td><label for="text"><b>UNIT </b></label>
+                          &ensp;<select id="unit14b" name="unit14b" required>
+                              <option>&ensp;</option>
+                              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                          </select></td>
+                        <td><label for="text"><b>LEVEL</b></label>
+                          &ensp;<select id="level14b" name="level14b" required>
+                            <option>&emsp;</option>
+                            <option value="Remembering">Remembering</option>
+                            <option value="Understanding">Understanding</option>
+                            <option value="Applying" >Applying</option>
+                            <option value="Analyzing">Analyzing</option>
+                            <option value="Evaluating">Evaluating</option>
+                            <option value="Creating">Creating</option>
+                          </select></td>
+                          <td><label for="text"><b>MARK</b></label>
+                            &ensp;<select id="mark14b" name="mark14b" required>
+                                <option>&ensp;</option>
+                                <option >16</option>
+                                <option >8</option>
+                                <option >12</option>
+                                <option >6</option>
+                                <option >10</option>
+                                <OPtion>4</OPtion>
+                                <OPtion>0</OPtion>
+                            </select></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> <select id="option"><option>&ensp;</option>
+                          <option>a</option>
+                          <option >b</option>
+                        </select></td>
+                        <td><label for="text"><b>UNIT </b></label>
+                          &ensp;<select id="unit15b" name="unit15b" required>
+                              <option>&ensp;</option>
+                              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                          </select></td>
+                        <td><label for="text"><b>LEVEL</b></label>
+                          &ensp;<select id="level15b" name="level15b" required>
+                            <option>&emsp;</option>
+                            <option value="Remembering">Remembering</option>
+                            <option value="Understanding">Understanding</option>
+                            <option value="Applying" >Applying</option>
+                            <option value="Analyzing">Analyzing</option>
+                            <option value="Evaluating">Evaluating</option>
+                            <option value="Creating">Creating</option>
+                          </select></td>
+                          <td><label for="text"><b>MARK</b></label>
+                            &ensp;<select id="mark15b" name="mark15b" required>
+                                <option>&ensp;</option>
+                                <option >16</option>
+                                <option >8</option>
+                                <option >12</option>
+                                <option >6</option>
+                                <option >10</option>
+                                <OPtion>4</OPtion>
+                                <OPtion>0</OPtion>
+                            </select></td>
+                      </tr>
+                      <tr>
+                        <td>Q5</td>
+                        <td> <select id="option"><option>&ensp;</option>
+                          <option>a</option>
+                          <option >b</option>
+                        </select></td>
+                        <td><label for="text"><b>UNIT </b></label>
+                          &ensp;<select id="unit16b" name="unit16b" required>
+                              <option>&ensp;</option>
+                              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                          </select></td>
+                        <td><label for="text"><b>LEVEL</b></label>
+                          &ensp;<select id="level16b" name="level16b" required>
+                            <option>&emsp;</option>
+                            <option value="Remembering">Remembering</option>
+                            <option value="Understanding">Understanding</option>
+                            <option value="Applying" >Applying</option>
+                            <option value="Analyzing">Analyzing</option>
+                            <option value="Evaluating">Evaluating</option>
+                            <option value="Creating">Creating</option>
+                          </select></td>
+                          <td><label for="text"><b>MARK</b></label>
+                              &ensp;<select id="mark16b" name="mark16b" required>
+                                  <option>&ensp;</option>
+                                  <option >16</option>
+                                  <option >8</option>
+                                  <option >12</option>
+                                  <option >6</option>
+                                  <option >10</option>
+                                  <OPtion>4</OPtion>
+                                  <OPtion>0</OPtion>
+                              </select></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> <select id="option"><option>&ensp;</option>
+                          <option>a</option>
+                          <option >b</option>
+                        </select></td>
+                        <td><label for="text"><b>UNIT </b></label>
+                          &ensp;<select id="unit17b" name="unit17b" required>
+                              <option>&ensp;</option>
+                              <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                          </select></td>
+                        <td><label for="text"><b>LEVEL</b></label>
+                          &ensp;<select id="level17b" name="level17b" required>
+                            <option>&emsp;</option>
+                            <option value="Remembering">Remembering</option>
+                            <option value="Understanding">Understanding</option>
+                            <option value="Applying" >Applying</option>
+                            <option value="Analyzing">Analyzing</option>
+                            <option value="Evaluating">Evaluating</option>
+                            <option value="Creating">Creating</option>
+                          </select></td>
+                          <td><label for="text"><b>MARK</b></label>
+                              &ensp;<select id="mark17b" name="mark17b" required>
+                                  <option>&ensp;</option>
+                                  <option >16</option>
+                                  <option >8</option>
+                                  <option >12</option>
+                                  <option >6</option>
+                                  <option >10</option>
+                                  <OPtion>4</OPtion>
+                                  <OPtion>0</OPtion>
+                              </select></td>
+                      </tr>
+                      
+                      <tr>
+                          <td>OR</td>
+                          <td> <select id="option"><option>&ensp;</option>
+                            <option>a</option>
+                            <option >b</option>
+                          </select></td>
+                          <td><label for="text"><b>UNIT </b></label>
+                            &ensp;<select id="unit18b" name="unit18b" required>
+                                <option>&ensp;</option>
+                                <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                            </select></td>
+                          <td><label for="text"><b>LEVEL</b></label>
+                            &ensp;<select id="level18b" name="level18b" required>
+                              <option>&emsp;</option>
+                              <option value="Remembering">Remembering</option>
+                              <option value="Understanding">Understanding</option>
+                              <option value="Applying" >Applying</option>
+                              <option value="Analyzing">Analyzing</option>
+                              <option value="Evaluating">Evaluating</option>
+                              <option value="Creating">Creating</option>
+                            </select></td>
+                            <td><label for="text"><b>MARK</b></label>
+                              &ensp;<select id="mark18b" name="mark18b" required>
+                                  <option>&ensp;</option>
+                                  <option >16</option>
+                                  <option >8</option>
+                                  <option >12</option>
+                                  <option >6</option>
+                                  <option >10</option>
+                                  <OPtion>4</OPtion>
+                                  <OPtion>0</OPtion>
+                              </select></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td> <select id="option"><option>&ensp;</option>
+                            <option>a</option>
+                            <option >b</option>
+                          </select></td>
+                          <td><label for="text"><b>UNIT </b></label>
+                            &ensp;<select id="unit19b" name="unit19b" required>
+                                <option>&ensp;</option>
+                                <option value="1">UNIT 1</option>
+                  <option value="2">UNIT 2</option>
+                  <option value="3">UNIT 3</option>
+                  <option value="4">UNIT 4</option>
+                  <option value="5">UNIT 5</option>
+                            </select></td>
+                          <td><label for="text"><b>LEVEL</b></label>
+                            &ensp;<select id="level19b" name="level19b" required>
+                              <option>&emsp;</option>
+                              <option value="Remembering">Remembering</option>
+                              <option value="Understanding">Understanding</option>
+                              <option value="Applying" >Applying</option>
+                              <option value="Analyzing">Analyzing</option>
+                              <option value="Evaluating">Evaluating</option>
+                              <option value="Creating">Creating</option>
+                            </select></td>
+                            <td><label for="text"><b>MARK</b></label>
+                              &ensp;<select id="mark19b" name="mark19b" required>
+                                  <option>&ensp;</option>
+                                  <option >16</option>
+                                  <option >8</option>
+                                  <option >12</option>
+                                  <option >6</option>
+                                  <option >10</option>
+                                  <OPtion>4</OPtion>
+                                  <OPtion>0</OPtion>
+                              </select></td>
+                        </tr>
+       <br><br>
+        
+        </table>
+        <button id="button" class="partA" ><b>GENERATE QUESTION PAPER</b></button>
+</div>
+</body>
+  </html>

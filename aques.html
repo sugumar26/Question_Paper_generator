@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Details</title>
+        <link rel="stylesheet" href="aques.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <form action="insert.php" method="post" >
+        <h1 id="head2" style="font-size:60px;">Add Questions</h1><br><br>
+    <div style="float:right; width:10%;" >
+    
+    </div>
+    <br><br><br><br>
+    <div id="aquesdiv" style="float:left; width:80%;">
+        <!-- <label for="qid"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Question ID: </b></label>
+        &ensp;&emsp;&ensp;
+        <input class="nrl" type="text" placeholder="Question ID"  required><br><br><br> -->
+        <label for="ename"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Enter the Question: </b></label>
+        &ensp;<input id="etq"type="text" name="question" placeholder="Enter the Question" required><br><br><br>
+        <label for="dlevel"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Difficulty Level: </b></label>
+        &ensp;<select id="dlevel" name="difficulty" required>
+            <option>&emsp;</option>
+            <option value="Remembering">Remembering</option>
+            <option value="Understanding">Understanding</option>
+            <option value="Applying" >Applying</option>
+            <option value="Analyzing">Analyzing</option>
+            <option value="Evaluating">Evaluating</option>
+            <option value="Creating">Creating</option>
+        </select>
+        &emsp;&emsp;&emsp;
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Marks Alloted: </b></label>
+        &ensp;<input type="tel" placeholder="Marks Alloted" name ="marks" required><br><br><br>
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Unit No: </b></label>&ensp;
+        <select id="malot" name="unit" required>
+            <option>&emsp;</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>&emsp;&emsp;&emsp;
+        
+        <label for="sub"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Subject: </b></label>&ensp;
+        <input type="text" id="sub" name="subject"  placeholder="Subject Name" required>
+       
+        <br><br><br>    
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Semester: </b></label>
+        &ensp;
+        <select type="tel" placeholder="Semester" name="semester" required>
+            <option>&emsp;</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>   
+
+        &emsp;&emsp;&emsp;
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Year: </b></label>
+        &ensp;
+        <select type="tel" placeholder="Year" name ="year" required>
+            <option>&emsp;</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+        </select>   
+        <br><br><br>
+        <label for="malot"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Subject Code: </b></label>
+        &ensp;<input  class="nrl" type="text" placeholder="Subject Code"  name="code" required><br><br><br>
+        <input type="submit" id="button" name="submit" value="Add">&emsp;&emsp;
+    
+    <button id="button"class="exit" onclick="window.location.href='logind.html'"><b>Exit</b></button>
+    </div>
+</form>
+    </body>
+</html>
